@@ -1,0 +1,11 @@
+[package]
+name = "superconductor-player-poc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.7.0"
+bevy_mod_wanderlust = "0.1.5"
+bevy_rapier3d = {version="0.15.0",features = [ "simd-stable", "debug-render" ]}
